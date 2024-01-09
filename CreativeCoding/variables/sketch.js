@@ -1,43 +1,45 @@
 function setup() {
-  createCanvas(720, 7200);
-  background('blue');
-  strokeWeight(8);
+  createCanvas(windowWidth, windowWidth);
+  fill('pink');
+  stroke ('blue');
+  strokeWeight (1);
   
-  fill ('pink');
 }
 
 function draw() {
+ 
   
-  translate (60,60); // this creates a new origin point
-  quad (
-   0,0,
-    300,0,
-      300,300,
-      0,300
-    
-  );
+
+var num = 20 //variable for number of squares
+
+
   
-  quad (
-   300,0,
-    600,0,
-      600,300,
-     300,300
-    
-  );//move 300 px x direction
-   quad (
-   0,300,
-    300,300,
-      300,600,
-      0,600
-    
-  );
+var sideLen = windowWidth/num; //var for sidelength each sqaure
   
-  quad (
-   300,300,
-    600,300,
-      600,600,
-     300,600
+  for (var y = 0; y < windowWidth; y = y + sideLen) {   //loop for y direction
     
-  );//move 300 px y direction
+     for (var x = 0; x < windowWidth; x = x + sideLen )  { //loop x direction
   
+  quad (x,y,
+        x + sideLen,y,
+        x + sideLen, y + sideLen,
+        x,y + sideLen);
+    
+  }
+    
+    
+    
+    
+    
+  }
+  
+ 
+  
+
+  
+   
+ 
+  
+  
+  noLoop();
 }
