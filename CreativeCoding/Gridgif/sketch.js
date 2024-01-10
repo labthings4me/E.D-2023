@@ -1,3 +1,11 @@
+//addgif
+
+let gif; 
+
+function preload (){
+gif = loadImage ('assets/gig.gif');
+
+}
 function setup() {
   createCanvas(windowWidth, windowHeight);
   fill('lightgrey');
@@ -7,6 +15,8 @@ function setup() {
 }
 
 function draw() {
+
+background ('red');
  
   
 
@@ -20,11 +30,7 @@ var sideLen = windowWidth/num; //var for sidelength each sqaure
     
      for (var x = 0; x < windowWidth; x = x + sideLen )  { //loop x direction
   
-  quad (x,y,
-        x + sideLen,y,
-        x + sideLen, y + sideLen,
-        x,y + sideLen);
-    
+  image (gif, x, y, sideLen, sideLen);
   }
     
     
