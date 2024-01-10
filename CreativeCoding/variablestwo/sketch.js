@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  fill('grey');
+  fill('lightgrey');
   stroke ('white');
   strokeWeight (1);
   
