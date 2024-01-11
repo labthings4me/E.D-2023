@@ -16,7 +16,7 @@ function setup() {
 
 function draw() {
 
-background ('yellow');
+background ('black');
  
   
 
