@@ -16,7 +16,7 @@ function setup() {
 
 function draw() {
 
-background ('white');
+background ('255,255,255');
  
   
 
