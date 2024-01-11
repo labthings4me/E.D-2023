@@ -3,7 +3,7 @@
 let gif; 
 
 function preload (){
-gif = loadImage ('assets/Lizard.gif');
+gif = loadImage ('assets/transparentLizard.gif');
 
 }
 function setup() {
@@ -47,7 +47,7 @@ var sideLen = windowWidth/num; //var for sidelength each sqaure
  
   
   
-  noLoop();
+  //noLoop();
 }
 function windowWidth (){
   resizeCanvas (windowWidth,windowHeight);
