@@ -16,7 +16,7 @@ function setup() {
 
 function draw() {
 
-background ('255,255,255');
+background ('255,255,255	');
  
   
 
@@ -49,6 +49,6 @@ var sideLen = windowWidth/num; //var for sidelength each sqaure
   
   //noLoop();
 }
-function windowWidth (){
+function windowResized (){
   resizeCanvas (windowWidth,windowHeight);
 }
