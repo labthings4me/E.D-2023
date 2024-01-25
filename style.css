@@ -25,13 +25,16 @@ h1{
      display: inline; background: blue;
 }
 h4{
-  color: white;
-     position: absolute;
+  color: blue;
+  
+
+   
+  
      left: 50%;
      transform: translateX(-50%) translateY(-50%);
      text-align: center;
      top: 0%;
-     display: inline; background: blue;
+   
 }
 h2{position: absolute;
  
