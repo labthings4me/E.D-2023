@@ -45,6 +45,11 @@ color: white;
 
 
 p{
+h3 {
+color:white;
+background: blue
+
+}
     position: absolute;
     font-size: 0.875em;
     left: 50%;
