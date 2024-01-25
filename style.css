@@ -24,6 +24,12 @@ h1{
      top: 0%;
      display: inline; background: yellow;
 }
+h2{position: absolute;
+}
+h3 {
+color: red;
+
+}
 
 p{
     position: absolute;
