@@ -28,10 +28,13 @@ h4{
   color: blue;
   
 
+  
+     display: inline; background: blue;
+}
+  
+
    
   
-     left: 50%;
-     transform: translateX(-50%) translateY(-50%);
      text-align: center;
      top: 0%;
    
