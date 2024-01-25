@@ -45,18 +45,18 @@ color: white;
 
 
 p{
-h3 {
-color:white;
-background: blue
-
+h3 {color: white;
+ background: blue;
 }
+ color:white;
     position: absolute;
     font-size: 0.875em;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align:center;
     top: 5%;
-    display: inline; background: white;
+   
+    display: inline; background: orange;
 }
 
 table{
