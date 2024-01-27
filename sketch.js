@@ -20,7 +20,7 @@ background ('255,255,255	');
  
   
 
-var num = 8 //variable for number of squares
+var num = 6 //variable for number of squares
 var sideLen = windowWidth
 
   
