@@ -48,6 +48,12 @@ p{
 h3 {color: white;
  background: blue;
 }
+a {
+    cursor: url('plainlizcursor.png'), auto;
+}
+
+
+a:link, a:visited 
  color:white;
     position: absolute;
     font-size: 0.875em;
