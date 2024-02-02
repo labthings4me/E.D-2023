@@ -1,6 +1,8 @@
 let pics;
 
 function preload (){
+
+
 chair1= loadImage ('chair/chair1.png');
 chair2 = loadImage ('chair/chair2.png');
   chair3 = loadImage ('chair/chair3.png');
@@ -35,9 +37,9 @@ function draw() {
     x +sideLen, y+sideLen,
     x, y+sideLen);
     
-         var pics =  [chair1, chair2, chair3,];
+         var pics =  ('chair1.png' 'chair2.png' 'chair3.png');
        
-      image (pics [int (random (0,3))], x, y );
+      image (pics [int (random (0,2))], x, y );
     
     
        
