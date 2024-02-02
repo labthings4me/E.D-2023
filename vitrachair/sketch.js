@@ -3,9 +3,9 @@ let pics;
 function preload (){
 
 
-chair1= loadImage ('chair/chair1.png');
-chair2 = loadImage ('chair/chair2.png');
-  chair3 = loadImage ('chair/chair3.png');
+chair1= loadImage ('chair1.png');
+chair2 = loadImage ('chair2.png');
+  chair3 = loadImage ('chair3.png');
  
   
   
