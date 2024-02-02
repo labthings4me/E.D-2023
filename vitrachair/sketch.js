@@ -1,11 +1,11 @@
-let pics;
+let img;
 
 function preload (){
 
 
-chair1= loadImage ('chair1.png');
-chair2 = loadImage ('chair2.png');
-  chair3 = loadImage ('chair3.png');
+img = loadImage ('chair1.png');
+//chair2 = loadImage ('chair2.png');
+  //chair3 = loadImage ('chair3.png');
  
   
   
@@ -16,7 +16,7 @@ chair2 = loadImage ('chair2.png');
 function setup() {
   createCanvas(windowWidth, windowWidth);
    frameRate (0.5);
-  noFill();
+  noFill
   noStroke();
  
 
@@ -37,18 +37,18 @@ function draw() {
     x +sideLen, y+sideLen,
     x, y+sideLen);
     
-         var pics =  ('chair1.png' 'chair2.png' 'chair3.png');
+         //var pics =  ('chair1.png' 'chair2.png' 'chair3.png');
        
-      image (pics [int (random (0,2))], x, y );
+      //image (pics [int (random (0,2))], x, y );
     
-    
+    image (img, x,y);
        
     
     
     
   }
   
-noLoop ()
+
   
   
   
